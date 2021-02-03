@@ -1,0 +1,28 @@
+#include<stdio.h>
+int main()
+{
+    int n,i,j=0,k=0,h=0;
+    float s1,s2,s3;
+    int arr[200];
+    scanf("%d",&n);
+    for(i=0;i<n;i++)
+    {
+        scanf("%d",&arr[i]);
+    }
+    for(i=0;i<n;i++)
+    {
+        if(arr[i]<0)
+        j++;
+        if(arr[i]>0)
+        h++;
+        if(arr[i]==0)
+        k++;
+    }
+    s1=(float)h/n;
+    printf("%5f",s1);
+    s2=(float)j/n;
+    printf("\n%5f",s2);
+    s3=(float)k/n;
+    printf("\n%5f",s3);
+
+}

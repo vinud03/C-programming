@@ -1,0 +1,34 @@
+1)preprocessing:- remove comments, includes macros,get content of header file save it in one file, save in .i file
+2)compiling:- convert .i file in assembly level instruction and save in .s extension
+3)assembly:- covert assembly level instruction in machine level instruction.
+4)linking:- static linker(sll) & dynamic linker(dll)
+after linking programm load in ram.
+
+Data types in c
+basic: int,char,float,double
+derived: array,pointer,structure, union. (derived from basic data types.)
+Enumeration: enum
+void: void
+
+
+1byte
+char,signed char, unsigned char
+
+2bytes
+short,signed short, unsigned short
+int, signed int, unsigned int
+signed short int, unsigned short int
+
+4byte
+long int, signed long int, unsigned long int, float
+
+double 8byte
+
+long double 10byte
+
+Do while loop:
+ do{
+
+	//code to be executed
+
+	}while(condition)
